@@ -1,23 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/workspace_netflix_recriacao/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/workspace_netflix_recriacao/style/owl/owl.theme.default.min.css">
     <title>NetFlix Clone</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h2>NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#">INICIO</a>
+                <a href="#">SÉRIES</a>
+                <a href="#">FILMES</a>
+                <a href="#">DOCUMENTÁRIOS</a>
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Lie to me</h3>
+                <p class="descricao">Dr. Cal Lightman ajuda a polícia com seus conhecimentos sobre o comportamento
+                    humano e com sua capacidade de saber quando alguém está mentindo.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <BUtton role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </BUtton>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+<div class="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-filme" src="img/TheGodFather.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/JohnWick.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/naruto.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/MissaoImpossivel.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Batmam.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/JasonBourne.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Deadpool.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Intocaveis.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Dracula.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Lietome.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/Regaste.jpg" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="img/BadBoys.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://kit.fontawesome.com/8c686e5639.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
+
 </html>
